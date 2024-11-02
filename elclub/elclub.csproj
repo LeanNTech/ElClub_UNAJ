@@ -45,8 +45,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Categoria.cs" />
+    <Compile Include="Clases\Club.cs" />
+    <Compile Include="Clases\Deporte.cs" />
+    <Compile Include="Clases\Entrenador.cs" />
+    <Compile Include="Clases\Ninio.cs" />
+    <Compile Include="Clases\Persona.cs" />
+    <Compile Include="Clases\Socio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
