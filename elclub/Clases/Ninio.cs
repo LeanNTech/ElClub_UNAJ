@@ -20,10 +20,10 @@ namespace elclub.Clases
             set { ultimoMesPago = value; }
         }
 
-        /*public Ninio()
+        public Ninio()
         {
 
-        }*/
+        }
 
         public Ninio(int dni, DateTime ultimoMesPago)
         {

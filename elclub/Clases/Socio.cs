@@ -20,12 +20,12 @@ namespace elclub.Clases
             set { descuento = value; }
         }
 
-        /*public Socio(string nombre, string apellido, int dni)
+        public Socio(string nombre, string apellido, int dni)
         {
             this.nombre = nombre;
             this.apellido = apellido;
             this.dni = dni;
-        }*/
+        }
 
         public Socio(string nombre, string apellido, int edad, int dni, DateTime ultimoMesPago, double descuento) : base(dni, ultimoMesPago)
         {

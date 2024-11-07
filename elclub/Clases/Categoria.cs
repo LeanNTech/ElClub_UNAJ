@@ -13,18 +13,25 @@ namespace elclub.Clases
 {
     public class Categoria
     {
-        private string nombreCat; 
-        private Entrenador entrenadorx; 
-        private Ninio ninios; 
-        private int cupo;
-        private string dia;
-        private int horario; 
-        private int cantidadN;
+        private string nombreCategoria;
+        private int cupoCat;
 
-        public int IdCategoria
+        public string NombreCategoria
         {
-            get { return idCategoria; }
-            set { idCategoria = value; }
+            get { return nombreCategoria; }
+            set { nombreCategoria = value; }
+        }
+
+        public int CupoCat
+        {
+            get { return cupoCat; }
+            set { cupoCat = value; }
+        }
+
+        public Categoria(string nombreCategoria, int cupoCat)
+        {
+            this.nombreCategoria = nombreCategoria;
+            this.cupoCat = cupoCat;
         }
     }
 }

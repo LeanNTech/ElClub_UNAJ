@@ -7,29 +7,40 @@
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace elclub.Clases
 {
     public class Deporte
     {
         private string nombreDepo;
-        private int cupo;
+        private string nombreCategoria;
+        private int cupoCat;
         private int dniEntrenador;
         private string nombreEntrenador;
+        private string apellidoEntrenador;
         private int cantInscriptos;
+        private List<string> diasYHorarios;
         private int costoCuota;
-        private DateTime dias;
-        private DateTime horarios;
+        
 
         public string NombreDepo
         {
             get { return nombreDepo; }
             set { nombreDepo = value; }
         }
-        public int Cupo
-        { 
-            get { return cupo; }
-            set { cupo = value; }
+
+        public string NombreCategoria
+        {
+            get { return nombreCategoria; }
+            set { nombreCategoria = value; }
+        }
+
+        public int CupoCat
+        {
+            get { return cupoCat; }
+            set { cupoCat = value; }
         }
 
         public int DniEntrenador
@@ -44,34 +55,41 @@ namespace elclub.Clases
             set { nombreDepo = value; }
         }
 
+        public string ApellidoEntrenador
+        {
+            get { return apellidoEntrenador; }
+            set { apellidoEntrenador = value; }
+        }
+
         public int CantInscriptos
         {
             get { return cantInscriptos; }
             set { cantInscriptos = value; }
         }
 
-        public DateTime Dias
+        public List<string> DiasYHorarios
         { 
-            get { return dias; } 
-            set { dias = value; } 
+            get { return diasYHorarios; }
+            set { diasYHorarios = value; }
         }
 
-        public DateTime Horarios
+        public int CostoCuota
         {
-            get { return horarios; }
-            set { horarios = value; }
+            get { return costoCuota; }
+            set { costoCuota = value; }
         }
-
-        public Deporte(string nombreDepo, int cupo, int dniEntrenador, string nombreEntrenador, int cantInscriptos, int costoCuota, DateTime dias, DateTime horarios)
+               
+        public Deporte(string nombreDepo, string nombreCategoria, int cupoCat, string nombreEntrenador, string apellidoEntrenador, int dniEntrenador, List<string> diasYHorarios, int costoCuota)
         {
             this.nombreDepo = nombreDepo;
-            this.cupo = cupo;
-            this.dniEntrenador = dniEntrenador;
+            this.nombreCategoria = nombreCategoria;
+            this.cupoCat = cupoCat;
             this.nombreEntrenador = nombreEntrenador;
-            this.cantInscriptos = cantInscriptos;
+            this.apellidoEntrenador = apellidoEntrenador;
+            this.dniEntrenador = dniEntrenador; 
+            this.diasYHorarios = diasYHorarios;
             this.costoCuota = costoCuota;
-            this.dias = dias;
-            this.horarios = horarios;
+            
         }
     }
 }

@@ -6,6 +6,7 @@
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
+ 
 using System;
 using System.Collections;
 
@@ -45,7 +46,6 @@ namespace elclub.Clases
         public ArrayList Deportes
         {
             get { return listaDeportes; }
-            set { listaDeportes = value; }
         }
 
         public void AgregarEntrenador(Entrenador entrenador)
@@ -61,7 +61,6 @@ namespace elclub.Clases
         public ArrayList Entrenadores
         {
             get { return listaEntrenadores; }
-            set { listaEntrenadores = value; }
         }
 
         public void AgregarNinio(Ninio ninio)
@@ -77,9 +76,7 @@ namespace elclub.Clases
         public ArrayList Ninios
         {
             get { return listaNinios; }
-            set { listaNinios = value; }
         }
 
     }
 }
-
