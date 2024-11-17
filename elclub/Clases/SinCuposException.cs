@@ -11,12 +11,12 @@ using System;
 namespace elclub.Clases
 {
 	public class SinCuposException : Exception
-{
-    public string fallo;
+	{
+    	public string fallo;
 
-    public SinCuposException(string f)
-    {
-        fallo = f;
-    }
-}
+    	public SinCuposException(string f)
+    	{
+        	fallo = f;
+    	}
+	}
 }

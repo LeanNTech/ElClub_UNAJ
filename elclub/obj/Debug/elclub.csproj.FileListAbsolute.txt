@@ -1,1 +1,5 @@
 C:\Users\Usuario\Documents\Proyecto_Club1\ElClub_UNAJ\elclub\obj\Debug\elclub.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Proyecto_Club1\ElClub_UNAJ\elclub\bin\Debug\elclub.exe
+C:\Users\Usuario\Documents\Proyecto_Club1\ElClub_UNAJ\elclub\bin\Debug\elclub.pdb
+C:\Users\Usuario\Documents\Proyecto_Club1\ElClub_UNAJ\elclub\obj\Debug\elclub.exe
+C:\Users\Usuario\Documents\Proyecto_Club1\ElClub_UNAJ\elclub\obj\Debug\elclub.pdb

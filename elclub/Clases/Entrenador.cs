@@ -12,10 +12,11 @@ namespace elclub.Clases
 {
     public class Entrenador : Persona
     {
-        public Entrenador(string nombre, string apellido, int dni)
+        public Entrenador(string nombre, string apellido, int edad, int dni)
         {
             this.nombre = nombre;
             this.apellido = apellido;
+            this.edad = edad;
             this.dni = dni;
         }
     }
