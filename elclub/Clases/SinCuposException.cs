@@ -10,13 +10,13 @@ using System;
 
 namespace elclub.Clases
 {
-	/// <summary>
-	/// Description of SinCuposException.
-	/// </summary>
-	public class SinCuposException
-	{
-		public SinCuposException()
-		{
-		}
-	}
+	public class SinCuposException : Exception
+{
+    public string fallo;
+
+    public SinCuposException(string f)
+    {
+        fallo = f;
+    }
+}
 }
